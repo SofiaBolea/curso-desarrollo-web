@@ -1,22 +1,22 @@
 /* -------------------- MÁS GENERALES -------------------- */
 
-body{
+body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100vh;
-    color: #f9f9f9; 
+    color: #f9f9f9;
     background-color: #222;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 }
 
-p{
+p {
     margin: 0px;
-    color: #eeff00e1 
+    color: #eeff00e1
 }
 
-h1{
+h1 {
 
     font-size: 100px;
     font-family: "Bebas Neue", sans-serif;
@@ -26,36 +26,39 @@ h1{
     margin: 0;
 }
 
-h3{
+h3 {
     font-family: "Bebas Neue", sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: #222;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
+
 /* -------------------- HEADER -------------------- */
-.contenedor-grid{
+.contenedor-grid {
     width: 100%;
     height: 100vh;
     display: grid;
     grid-template-rows: 0.5fr 4fr 0.5fr;
     gap: 0px;
-    grid-template-areas: 
+    grid-template-areas:
         "header"
         "main"
         "footer";
 }
-.item1{
+
+.item1 {
     grid-area: header;
     background-color: #222;
-    
+
 }
 
-.contenido-header{
+.contenido-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -65,47 +68,52 @@ a:hover{
 }
 
 
-.logo{
+.logo {
     font-size: 50px;
-    color: #eeff00e1 
+    color: #eeff00e1
 }
 
 .nav-link {
     color: #f9f9f9;
 }
+
 /* -------------------- NAVBAR -------------------- */
-.navbar{
+.navbar {
     padding: 20px 0;
 }
+
 .navbar-nav {
-    margin-left: auto; 
-  }
-.navbar-toggler{
-    
+    margin-left: auto;
+}
+
+.navbar-toggler {
+
     color: azure;
 }
-.navbar-toggler:focus{
+
+.navbar-toggler:focus {
     box-shadow: none;
 }
 
 .nav-link-hover:hover {
-    color: #eeff00e1 ; 
+    color: #eeff00e1;
 }
 
 .nav-link:focus {
-  color: #eeff00e1  ; 
+    color: #eeff00e1;
 }
 
 /* -------------------- HERO INICIO -------------------- */
-.item2{
+.item2 {
     grid-area: main;
 }
 
-.hero-inicio{ /* REUTILIZADO EN INICIO DE SESION*/
+.hero-inicio {
+    /* REUTILIZADO EN INICIO DE SESION*/
     height: 100vh;
     width: 100%;
-    background-image:url("/curso-desarrollo-web/multimedia/imagenHero.jpg");
-    background-size: cover;   
+    background-image: url("/curso-desarrollo-web/multimedia/imagenHero.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -113,32 +121,34 @@ a:hover{
     align-items: center;
 }
 
-.seccion-general{
+.seccion-general {
     background-color: rgba(107, 106, 106, 0.541);
     border-radius: 30px;
-    height: 90vh; 
+    height: 90vh;
     width: 95%;
-    box-shadow: 0 0 30px 5px rgba(60, 66, 2, 0.342); /* bien visible */
+    box-shadow: 0 0 30px 5px rgba(60, 66, 2, 0.342);
+    /* bien visible */
     display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items: start;
     justify-content: center;
     padding: 50px;
 }
-.columna-hero{
+
+.columna-hero {
     display: flex;
     flex-direction: column;
     align-items: start;
     width: 50%;
 }
 
-.h2-hero{
-  color: #222;
+.h2-hero {
+    color: #222;
 }
 
 
 /* -------------------- INICIO SESION -------------------- */
-.formulario-inicio-sesion{
+.formulario-inicio-sesion {
     width: 80%;
     height: 50%;
     display: flex;
@@ -148,28 +158,35 @@ a:hover{
     max-width: 500px;
     margin: auto;
 }
-.seccion-general-inicio-sesion{
+
+.seccion-general-inicio-sesion {
     align-items: center;
-     
-    
+
+
 }
-.form-floating{
+
+.form-floating {
     width: 80%;
-   
+
 }
+
 .form-control {
-  border-radius: 20px;
+    border-radius: 20px;
 }
+
 .form-control:focus {
-  border-color: #eeff00e1 ;      /* color del borde activo */
-  box-shadow: 0 0 5px rgba(192, 235, 4, 0.377);
+    border-color: #eeff00e1;
+    /* color del borde activo */
+    box-shadow: 0 0 5px rgba(192, 235, 4, 0.377);
 }
-.fila-botones-inicio-sesion{
+
+.fila-botones-inicio-sesion {
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .btn-primary {
     background-color: #eeff00e1;
     border-radius: 20px;
@@ -185,15 +202,36 @@ a:hover{
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #99a30dec;
     --bs-btn-disabled-border-color: #99a30dec;
-
-}
-.p-oscuro{
-    color: #222; 
 }
 
-
+.p-oscuro {
+    color: #222;
+}
+/* -------------------- FORMULARIO REGISTRO -------------------- */
+.formulario-registro{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+}
+.columna-botones-registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.fila-botones-registro {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
 /* -------------------- FOOTER -------------------- */
-.item3{
+.item3 {
     grid-area: footer;
     background-color: #222;
     display: flex;
@@ -203,7 +241,7 @@ a:hover{
     justify-content: center;
 }
 
-footer{
+footer {
     width: 100%;
     height: 100%;
     display: flex;
@@ -212,14 +250,15 @@ footer{
     padding: 0 20px;
 }
 
-.columna-uno-footer{
+.columna-uno-footer {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 0;    
+    padding: 20px 0;
 }
-.columna-dos-footer{
+
+.columna-dos-footer {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -235,7 +274,26 @@ footer{
         align-items: center;
         text-align: center;
     }
-    .seccion-general{
+
+    .seccion-general {
         align-items: center;
     }
+.fila-botones-inicio-sesion {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    .fila-botones-registro {
+    flex-direction: column;
+    height: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .btn-primary {
+    font-size: small;
+  }
 }
