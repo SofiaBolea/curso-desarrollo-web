@@ -162,7 +162,16 @@ footer{
     justify-content: center;
 }
 
+/* -------------------- MOBILE -------------------- */
 
-
-
-
+/* Media query para tabletas */
+@media (max-width: 1024px) {
+    .columna-hero {
+        width: 80%;
+        align-items: center;
+        text-align: center;
+    }
+    .seccion-general{
+        align-items: center;
+    }
+}
