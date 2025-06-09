@@ -8,9 +8,24 @@ body{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 }
+
 p{
     margin: 0px;
     color: #eeff00e1 
+}
+
+h1{
+
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #222;
+    margin: 0;
+}
+
+h3{
+    font-family: "Bebas Neue", sans-serif;
 }
 
 /* -------------------- HEADER -------------------- */
@@ -40,15 +55,6 @@ p{
     height: 100%;
 }
 
-h1{
-
-    font-size: 100px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #222;
-    margin: 0;
-}
 
 .logo{
     font-size: 50px;
