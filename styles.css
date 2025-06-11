@@ -112,7 +112,7 @@ a:hover {
     /* REUTILIZADO EN INICIO DE SESION*/
     height: 100vh;
     width: 100%;
-    background-image: url("/curso-desarrollo-web/multimedia/imagenHero.jpg");
+    background-image: url("/multimedia/imagenHero.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -230,6 +230,64 @@ a:hover {
   justify-content: space-between;
   align-items: end;
 }
+/* -------------------- RUTINAS -------------------- */
+.carousel {
+    width: 100%;
+    height: 90%;
+}
+
+.carousel-inner {
+    height: 100%;
+    
+}
+
+.carousel-item {
+    height: 100%;
+    
+}
+.carousel-item-uno {
+    background-image: url("/multimedia/crossfit.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-item-dos {
+    background-image: url("/multimedia/victor-freitas-hOuJYX2K5DA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-item-tres {
+    background-image: url("/multimedia/soga.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem; /* Título grande */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem; /* Texto más grande */
+    font-family: 'Montserrat', sans-serif;
+}
+.seccion-general-rutinas {
+    align-items: center;
+
+}
+.boton-crear-rutina{
+    margin-top: 10px;
+    width: 60%;
+    text-align: center;
+}
 /* -------------------- FOOTER -------------------- */
 .item3 {
     grid-area: footer;
@@ -296,4 +354,14 @@ footer {
   .btn-primary {
     font-size: small;
   }
+  .carousel-caption h5 {
+    font-size: 1.5rem; /* Título grande */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 1rem; /* Texto más grande */
+    font-family: 'Montserrat', sans-serif;
+}
 }
