@@ -332,7 +332,9 @@ a:hover {
 }
 /* -------------------- DÍA RUTINA -------------------- */
 .seccion-general-dia{
-    padding: 20px;
+    padding: 30px;
+    height: 90%;
+
 }
 .container-dia{
     width: 100%;
@@ -342,7 +344,6 @@ a:hover {
     flex-direction: column;
     background-color:#f9f9f9;
     border-radius: 15px;
-    
 }
 .scroll-container-dia{
     margin-bottom: 10px;
@@ -361,13 +362,14 @@ a:hover {
     width: 100%;
 }
 .form-control{
-    font-size: 10px;
+    
     text-align: center;
 }
 .table {
   width: 100%;
   table-layout: fixed;
   text-align: center;
+  height: 100%;
 }
 
 .table th,
@@ -376,7 +378,6 @@ a:hover {
   padding: 10px;
   vertical-align: middle;
   align-items: center;
-  align-content: center;
 }
 
 
