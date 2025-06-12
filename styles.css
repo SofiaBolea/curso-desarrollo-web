@@ -263,11 +263,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
 }
-.carousel-item img {
-    object-fit: cover;
-    width: 100%;
-    filter: brightness(50%);
-}
+
 
 .carousel-caption h5 {
     font-size: 2.5rem; /* Título grande */
@@ -280,6 +276,7 @@ a:hover {
     flex-direction: column;
     justify-content: flex-end;
     align-items:center;
+    background-color: #22222244;
 }
 
 .carousel-caption p {
@@ -294,6 +291,24 @@ a:hover {
     margin-top: 10px;
     width: 60%;
     text-align: center;
+}
+.a-rutinas{
+    
+    text-decoration: none;
+    color: #f9f9f9;
+    
+}
+
+.a-rutinas:hover {
+    text-decoration: none;
+}
+.btn-secondary {
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: #222;
+    --bs-btn-hover-color: #222;
+   
 }
 /* -------------------- DÍAS RUTINA -------------------- */
 .scroll-container {
@@ -314,6 +329,27 @@ a:hover {
     height: 100%;
     justify-content: center;
     padding: 20px;
+}
+/* -------------------- DÍA RUTINA -------------------- */
+
+.container-dia{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color:#f9f9f9;
+    border-radius: 15px;
+}
+.scroll-container-dia{
+    margin-bottom: 10px;
+}
+.h1-dias {
+    font-size: 50px
+}
+.h2-encabezados{
+    color:#222 ;
+    font-size: 2rem;
 }
 /* -------------------- FOOTER -------------------- */
 .item3 {
