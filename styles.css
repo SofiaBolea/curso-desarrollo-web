@@ -331,18 +331,24 @@ a:hover {
     padding: 20px;
 }
 /* -------------------- DÍA RUTINA -------------------- */
-
+.seccion-general-dia{
+    padding: 20px;
+}
 .container-dia{
     width: 100%;
     height: 100%;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     background-color:#f9f9f9;
     border-radius: 15px;
+    
 }
 .scroll-container-dia{
     margin-bottom: 10px;
+    align-items: center;
+    padding: 20px;
+   
 }
 .h1-dias {
     font-size: 50px
@@ -351,6 +357,39 @@ a:hover {
     color:#222 ;
     font-size: 2rem;
 }
+.form-control{
+    width: 100%;
+}
+.form-control{
+    font-size: 10px;
+    text-align: center;
+}
+.table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.table th,
+.table td {
+  word-wrap: break-word;
+  padding: 10px;
+  vertical-align: middle;
+  align-items: center;
+  align-content: center;
+}
+
+
+.table thead th {
+  background-color: #eeff00e1;
+  color: #222;
+}
+
+.table tbody tr {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
 /* -------------------- FOOTER -------------------- */
 .item3 {
     grid-area: footer;

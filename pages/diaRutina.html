@@ -54,7 +54,7 @@
 
         </div>
         <div class="item2 hero-inicio ">
-            <div class="seccion-general ">
+            <div class="seccion-general seccion-general-dia">
                 <h1 class="h1-dias">Rutina 1</h1>
                 <div class="container-dia">
                     <h2 class="h2-encabezados">DIA 1</h2>
@@ -62,49 +62,71 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th scope="col">video</th>
+                                    <th scope="col">Video</th>
                                     <th scope="col">Nombre ejercicio</th>
-                                    <th scope="col">Serie</th>
-                                    <th scope="col">Repeticiones</th>
-                                    <th scope="col">Peso</th>
+                                    <th scope="col" class="d-none d-md-table-cell">Serie</th>
+                                    <th scope="col" class="d-none d-md-table-cell">Repeticiones</th>
+                                    <th scope="col" class="d-none d-md-table-cell">Peso (kg)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><a href="https://www.youtube.com/watch?v=UoC_O3HzsH0" target="_blank">Ver</a></td>
+                                    <td><a href="https://www.youtube.com/watch?v=UoC_O3HzsH0" target="_blank">Ver</a>
+                                    </td>
                                     <td>Sentadilla</td>
-                                    <td>4</td>
-                                    <td>12</td>
-                                    <td>50 kg</td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="number" class="form-control form-control-sm" value="4">
+                                    </td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="number" class="form-control form-control-sm" value="12">
+                                    </td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="text" class="form-control form-control-sm" value="50">
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://www.youtube.com/watch?v=gRVjAtPip0Y" target="_blank">Ver</a></td>
+                                    <td><a href="https://www.youtube.com/watch?v=gRVjAtPip0Y" target="_blank">Ver</a>
+                                    </td>
                                     <td>Press de banca</td>
-                                    <td>3</td>
-                                    <td>10</td>
-                                    <td>40 kg</td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="number" class="form-control form-control-sm" value="3">
+                                    </td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="number" class="form-control form-control-sm" value="10">
+                                    </td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="text" class="form-control form-control-sm" value="40">
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://www.youtube.com/watch?v=vT2GjY_Umpw" target="_blank">Ver</a></td>
-                                    <td>Remo con barra</td>
-                                    <td>4</td>
-                                    <td>8</td>
-                                    <td>45 kg</td>
-                                </tr>
-                                <tr>
-                                    <td><a href="https://www.youtube.com/watch?v=3UwO0fJ44FM" target="_blank">Ver</a></td>
+                                    <td><a href="https://www.youtube.com/watch?v=3UwO0fJ44FM" target="_blank">Ver</a>
+                                    </td>
                                     <td>Press militar</td>
-                                    <td>3</td>
-                                    <td>10</td>
-                                    <td>25 kg</td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="number" class="form-control form-control-sm" value="3">
+                                    </td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="number" class="form-control form-control-sm" value="10">
+                                    </td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="text" class="form-control form-control-sm" value="25">
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://www.youtube.com/watch?v=1fbU_MkV7NE" target="_blank">Ver</a></td>
+                                    <td><a href="https://www.youtube.com/watch?v=1fbU_MkV7NE" target="_blank">Ver</a>
+                                    </td>
                                     <td>Elevaciones laterales</td>
-                                    <td>3</td>
-                                    <td>15</td>
-                                    <td>5 kg</td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="number" class="form-control form-control-sm" value="3">
+                                    </td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="number" class="form-control form-control-sm" value="15">
+                                    </td>
+                                    <td class="d-none d-md-table-cell">
+                                        <input type="text" class="form-control form-control-sm" value="5">
+                                    </td>
                                 </tr>
+                                <!-- Más filas igual... -->
                             </tbody>
                         </table>
                     </div>
@@ -112,6 +134,7 @@
             </div>
 
         </div>
+
         <div class="item3">
             <footer>
                 <div class="columna-uno-footer">
