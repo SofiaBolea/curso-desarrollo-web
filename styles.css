@@ -432,7 +432,24 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
-
+.container-dia-especifico {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    background-color:#f9f9f9;
+    
+}
+.container-dias{
+     width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    background-color:#f9f9f9;
+    overflow-y: scroll;
+}
 /* -------------------- MOBILE -------------------- */
 
 /* Media query para tabletas */
@@ -463,7 +480,8 @@ footer {
     text-align: center;
   }
   .btn-primary {
-    font-size: small;
+    font-size: 0.8rem;
+    
   }
   .carousel-caption h5 {
     font-size: 1.5rem; /* Título grande */
