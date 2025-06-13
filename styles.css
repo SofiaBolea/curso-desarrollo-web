@@ -176,7 +176,6 @@ a:hover {
 
 .form-control:focus {
     border-color: #eeff00e1;
-    /* color del borde activo */
     box-shadow: 0 0 5px rgba(192, 235, 4, 0.377);
 }
 
@@ -398,6 +397,109 @@ a:hover {
     width: 50%;
    
 }
+/* -------------------- MODIFICAR RUTINA -------------------- */
+.encabezado-modificar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    height: 90%;
+    align-items: center;
+}
+.input-nombre-rutina{
+    width: 40%;
+}
+.boton-encabezado{
+    width: 40%;
+    text-align: end;
+}
+.container-dia-especifico {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    background-color:#f9f9f9;
+    
+}
+.container-dias{
+     width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    background-color:#f9f9f9;
+    overflow-y: scroll;
+}
+/* -------------------- AGREGAR EJERCICIO -------------------- */
+.toggle-password-btn {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #494E5F;
+}
+.filtros-de-busqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.input-filtros{
+    text-align: start;
+}
+.buscar-ejercicio-container{
+    position: relative;
+    width: 40%;
+}
+.buscar-ejercicio-container input {
+    width: 100%;
+   
+}
+
+  .fa-magnifying-glass{
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #494E5F;
+  }
+  .lista-seleccionable{
+    width: 40%;
+  }
+  .encabezado-agregar{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    
+  }
+ .encabezado-agregar div{
+    width: 35%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+ 
+   
+  }
+  .encabezado-agregar input{
+    height: 50%;
+  }
+ 
+
 /* -------------------- FOOTER -------------------- */
 .item3 {
     grid-area: footer;
@@ -432,24 +534,7 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
-.container-dia-especifico {
-    width: 100%;
-    height: 100%;
-    
-    display: flex;
-    flex-direction: column;
-    background-color:#f9f9f9;
-    
-}
-.container-dias{
-     width: 100%;
-    height: 100%;
-   
-    display: flex;
-    flex-direction: column;
-    background-color:#f9f9f9;
-    overflow-y: scroll;
-}
+
 /* -------------------- MOBILE -------------------- */
 
 /* Media query para tabletas */
@@ -497,5 +582,22 @@ footer {
 .table td {
   font-size: 0.8rem;
 }
+ .fa-magnifying-glass{
+    
+    font-size: 0.7rem;
+    
+  }
 
+.encabezado-agregar h1{
+    font-size: 1.5rem;
+}
+.encabezado-agregar div{
+    height: 30%;
+}
+.encabezado-agregar{
+    margin-bottom: 10px;
+}
+.input-filtros{
+    font-size: 0.7rem;
+}
 }
