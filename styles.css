@@ -343,6 +343,7 @@ a:hover {
     flex-direction: column;
     background-color:#f9f9f9;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 .scroll-container-dia{
     margin-bottom: 10px;
@@ -613,5 +614,8 @@ footer {
 }
 .input-filtros{
     font-size: 0.7rem;
+}
+input{
+    word-wrap: break-word;
 }
 }
