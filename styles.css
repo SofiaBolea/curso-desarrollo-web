@@ -391,11 +391,10 @@ a:hover {
 }
 .a-tabla{
     width: 100%;
-    text-align: center;
+    
 }
 .btn-volver{
-    width: 50%;
-   
+    width: 40%;
 }
 /* -------------------- MODIFICAR RUTINA -------------------- */
 .encabezado-modificar{
@@ -488,18 +487,25 @@ a:hover {
     
   }
  .encabezado-agregar div{
-    width: 35%;
+    width: 30%;
     height: 70%;
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
  
    
   }
   .encabezado-agregar input{
     height: 50%;
   }
- 
-
+/* -------------------- MODAL -------------------- */
+.imagen-modal{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
 /* -------------------- FOOTER -------------------- */
 .item3 {
     grid-area: footer;
@@ -534,6 +540,14 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
+/* -------------------- CREAR RUTINA -------------------- */
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
 /* -------------------- MOBILE -------------------- */
 
@@ -564,7 +578,7 @@ footer {
     justify-content: space-evenly;
     text-align: center;
   }
-  .btn-primary {
+  .btn{
     font-size: 0.8rem;
     
   }

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio de sesión</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="contenedor-grid">
+        <div class="item1">
+            <div class="contenido-header">
+                <h1 class="logo">MIRUTINA</h1>
+
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid p-0">
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-hover " href="/index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-hover" href="/pages/rutinas.html">Rutinas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-hover" href="/pages/crearRutina.html">Crear Rutina</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-hover" href="/pages/inicioSesion.html"><i
+                                            class="fa-solid fa-circle-user"></i> Perfil</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+        <div class="item2 hero-inicio ">
+            <div class="seccion-general seccion-general-dia">
+                <div class="encabezado-agregar">
+                    <div>
+                        <input type="text" class="form-control form-control-sm form-floating "  placeholder="Nombre">
+                    </div>
+                    <div>
+                        <input type="number" class="form-control form-control-sm" placeholder="Días">
+                    </div>
+                    <div>
+                        <input type="number" class="form-control form-control-sm" placeholder="Semanas">
+                    </div>
+                </div>
+
+                <div class="container-dia">
+                    <div class="filtros-de-busqueda">
+                        <select class="form-select form-control input-filtros lista-seleccionable"
+                            aria-label="Default select example">
+                            <option selected>Grupo muscular</option>
+                            <option value="1">Abductores</option>
+                            <option value="2">Abdominales</option>
+                            <option value="3">Aductores</option>
+                            <option value="4">Antebrazos</option>
+                            <option value="5">Biceps</option>
+                            <option value="6">Cuádriceps</option>
+                            <option value="7">Deltoides</option>
+                            <option value="8">Dorsales</option>
+                            <option value="9">Espalda</option>
+                            <option value="10">Glúteos</option>
+                            <option value="11">Hombros</option>
+                            <option value="12">Isquiotibiales</option>
+                            <option value="13">Pantorrillas</option>
+                            <option value="14">Pecho</option>
+                            <option value="15">Triceps</option>
+
+                        </select>
+                        <div class="form-floating position-relative buscar-ejercicio-container">
+                            <input type="text" class="form-control input-filtros d-none d-md-inline input-filtros"
+                                id="floatingEjercicio" placeholder="Buscar ejercicio">
+                            <input type="text" class="form-control input-filtros d-inline d-md-none input-filtros"
+                                placeholder="Buscar ejercicio">
+                            <label class="d-none d-md-inline input-filtros" for="floatingEjercicio">Buscar
+                                ejercicio</label>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="scroll-container scroll-container-dia ">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Video</th>
+                                    <th scope="col">Nombre ejercicio</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.youtube.com/watch?v=UoC_O3HzsH0" target="_blank"
+                                            class="d-none d-md-inline">Ver</a>
+                                        <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    </td>
+                                    <td>Sentadilla</td>
+
+                                    <td>
+                                        <button class="btn btn-primary d-none d-md-table-cell" data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar"> Agregar
+                                        </button>
+                                        <button class="d-inline d-md-none btn btn-sm " data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.youtube.com/watch?v=gRVjAtPip0Y" target="_blank"
+                                            class="d-none d-md-inline">Ver</a>
+                                        <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    </td>
+                                    <td>Press de banca</td>
+
+                                    <td>
+                                        <button class="btn btn-primary d-none d-md-table-cell" data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar"> Agregar
+                                        </button>
+                                        <button class="d-inline d-md-none btn btn-sm " data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.youtube.com/watch?v=3UwO0fJ44FM" target="_blank"
+                                            class="d-none d-md-inline">Ver</a>
+                                        <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    </td>
+                                    <td>Press militar</td>
+
+                                    <td>
+                                        <button class="btn btn-primary d-none d-md-table-cell" data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar"> Agregar
+                                        </button>
+                                        <button class="d-inline d-md-none btn btn-sm " data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.youtube.com/watch?v=1fbU_MkV7NE" target="_blank"
+                                            class="d-none d-md-inline">Ver</a>
+                                        <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    </td>
+                                    <td>Elevaciones laterales</td>
+
+                                    <td>
+                                        <button class="btn btn-primary d-none d-md-table-cell" data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar"> Agregar
+                                        </button>
+                                        <button class="d-inline d-md-none btn btn-sm " data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.youtube.com/watch?v=2tM1LFFxeKg" target="_blank"
+                                            class="d-none d-md-inline">Ver</a>
+                                        <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    </td>
+                                    <td>Extensión de tríceps en polea</td>
+
+                                    <td>
+                                        <button class="btn btn-primary d-none d-md-table-cell" data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar"> Agregar
+                                        </button>
+                                        <button class="d-inline d-md-none btn btn-sm " data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.youtube.com/watch?v=EXeTwQWrcwY" target="_blank"
+                                            class="d-none d-md-inline">Ver</a>
+                                        <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    </td>
+                                    <td>Remo con barra</td>
+
+                                    <td>
+                                        <button class="btn btn-primary d-none d-md-table-cell" data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar"> Agregar
+                                        </button>
+                                        <button class="d-inline d-md-none btn btn-sm " data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.youtube.com/watch?v=d_JlrsYi0aM" target="_blank"
+                                            class="d-none d-md-inline">Ver</a>
+                                        <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    </td>
+                                    <td>Jalón al pecho</td>
+
+                                    <td>
+                                        <button class="btn btn-primary d-none d-md-table-cell" data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar">Agregar
+                                        </button>
+                                        <button class="d-inline d-md-none btn btn-sm " data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.youtube.com/watch?v=ykJmrZ5v0Oo" target="_blank"
+                                            class="d-none d-md-inline">Ver</a>
+                                        <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    </td>
+                                    <td>Curl de bíceps con mancuernas</td>
+
+                                    <td>
+                                        <button class="btn btn-primary d-none d-md-table-cell" data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar"> Agregar
+                                        </button>
+                                        <button class="d-inline d-md-none btn btn-sm " data-bs-toggle="modal"
+                                            data-bs-target="#modalAgregar">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="botones">
+                        <button class="btn btn-primary btn-volver"><a  href="/pages/rutinas.html" >Volver </a></button>
+                        
+                        <button class="btn btn-primary btn-volver" data-bs-toggle="modal" data-bs-target="#modalCreadoConExito">Listo</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="item3">
+            <footer>
+                <div class="columna-uno-footer">
+                    <h3>MIRUTINA</h3>
+                    <p>Entrena. Mejora. Repite.</p>
+                </div>
+
+                <div class="columna-dos-footer">
+                    <p> © 2025 MiRutina. Todos los derechos reservados. Desarrollado por Sofía Bolea.</p>
+                </div>
+            </footer>
+
+        </div>
+        <script src="https://kit.fontawesome.com/9616ff0a1f.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
+
+       <!-- Agregar ejercicio -->
+        <div class="modal fade" id="modalAgregar" tabindex="-1" aria-labelledby="modalEliminarLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalEliminarLabel">Sentadilla</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="/multimedia/Sentadilla.jpg" alt="Imagen de Sentadilla" class="imagen-modal">
+                        <label for="series"> Series </label>
+                        <input id="series" type="number" class="form-control form-control-sm" value="4">
+                        <label for="repeticiones" class="repeticiones">Repeticiones</label>
+                        <input id="repeticiones" type="number" class="form-control form-control-sm" value="10">
+                        <label for="dia">Dia</label>
+                        <select class="form-select form-control"
+                            aria-label="Default select example" id="dia">
+                            <option selected>Dia de la semana</option>
+                            <option value="1">Dia 1</option>
+                            <option value="2">Dia 2</option>
+                            <option value="3">Dia 3</option>
+                            <option value="4">Dia 4</option>
+                            <option value="5">Dia 5</option>
+                        </select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#modalAgregadoConExito">Agregar</button>
+                    </div>
+                    </div>
+            </div>
+        </div>
+
+        <!-- Modal agregado con exito -->
+        <div class="modal fade" id="modalAgregadoConExito" tabindex="-1" aria-labelledby="modalEliminarLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        Agregado con éxito.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+          <!-- Modal creado con exito -->
+        <div class="modal fade" id="modalCreadoConExito" tabindex="-1" aria-labelledby="modalEliminarLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        Creado con éxito.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

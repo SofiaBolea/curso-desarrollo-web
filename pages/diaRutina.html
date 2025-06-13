@@ -40,7 +40,7 @@
                                     <a class="nav-link nav-link-hover" href="/pages/rutinas.html">Rutinas</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link nav-link-hover" href="#">Crear Rutina</a>
+                                    <a class="nav-link nav-link-hover" href="/pages/crearRutina.html">Crear Rutina</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link nav-link-hover" href="/pages/inicioSesion.html"><i
@@ -72,7 +72,8 @@
                             <tbody>
                                 <tr>
                                     <td><a href="https://www.youtube.com/watch?v=UoC_O3HzsH0" target="_blank" class="d-none d-md-inline">Ver</a>
-                                        <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                        <button class="d-inline d-md-none btn btn-sm btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#modalVer">ver</button>
                                     </td>
                                     <td>Sentadilla</td>
                                     <td class="d-none d-md-table-cell">
@@ -87,7 +88,8 @@
                                 </tr>
                                 <tr>
                                     <td><a href="https://www.youtube.com/watch?v=gRVjAtPip0Y" target="_blank" class="d-none d-md-inline">Ver</a>
-                                    <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    <button class="d-inline d-md-none btn btn-sm btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="modalVer">ver</button>
                                     </td>
                                     <td>Press de banca</td>
                                     <td class="d-none d-md-table-cell">
@@ -102,7 +104,8 @@
                                 </tr>
                                 <tr>
                                     <td><a href="https://www.youtube.com/watch?v=3UwO0fJ44FM" target="_blank" class="d-none d-md-inline">Ver</a>
-                                    <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    <button class="d-inline d-md-none btn btn-sm btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#modalVer">ver</button>
                                     </td>
                                     <td>Press militar</td>
                                     <td class="d-none d-md-table-cell">
@@ -117,7 +120,8 @@
                                 </tr>
                                 <tr>
                                     <td><a href="https://www.youtube.com/watch?v=1fbU_MkV7NE" target="_blank" class="d-none d-md-inline">Ver</a>
-                                    <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    <button class="d-inline d-md-none btn btn-sm btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#modalVer">ver</button>
                                     </td>
                                     <td>Elevaciones laterales</td>
                                     <td class="d-none d-md-table-cell">
@@ -132,7 +136,8 @@
                                 </tr>
                                 <tr>
                                     <td><a href="https://www.youtube.com/watch?v=2tM1LFFxeKg" target="_blank" class="d-none d-md-inline">Ver</a>
-                                    <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    <button class="d-inline d-md-none btn btn-sm btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="modalVer" >ver</button>
                                     </td>
                                     <td>Extensión de tríceps en polea</td>
                                     <td class="d-none d-md-table-cell">
@@ -147,7 +152,8 @@
                                 </tr>
                                 <tr>
                                     <td><a href="https://www.youtube.com/watch?v=EXeTwQWrcwY" target="_blank" class="d-none d-md-inline">Ver</a>
-                                    <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    <button class="d-inline d-md-none btn btn-sm btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#modalVer">ver</button>
                                     </td>
                                     <td>Remo con barra</td>
                                     <td class="d-none d-md-table-cell">
@@ -162,7 +168,8 @@
                                 </tr>
                                 <tr>
                                     <td><a href="https://www.youtube.com/watch?v=d_JlrsYi0aM" target="_blank" class="d-none d-md-inline">Ver</a>
-                                    <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    <button class="d-inline d-md-none btn btn-sm btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="modalVer">ver</button>
                                     </td>
                                     <td>Jalón al pecho</td>
                                     <td class="d-none d-md-table-cell">
@@ -177,7 +184,8 @@
                                 </tr>
                                 <tr>
                                     <td><a href="https://www.youtube.com/watch?v=ykJmrZ5v0Oo" target="_blank" class="d-none d-md-inline">Ver</a>
-                                    <button class="d-inline d-md-none btn btn-sm btn-primary">ver</button>
+                                    <button class="d-inline d-md-none btn btn-sm btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#modalVer">ver</button>
                                     </td>
                                     <td>Curl de bíceps con mancuernas</td>
                                     <td class="d-none d-md-table-cell">
@@ -191,7 +199,7 @@
                                     </td>
                                 </tr>
                                 
-                                <!-- Más filas igual... -->
+                            
                             </tbody>
                         </table>
                         
@@ -220,6 +228,34 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
             crossorigin="anonymous"></script>
+
+    <!-- MODALES VER EJERCICIO -->
+        <div class="modal fade" id="modalVer" tabindex="-1" aria-labelledby="modalVer"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalEliminarLabel">Sentadilla</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="/multimedia/Sentadilla.jpg" alt="Imagen de Sentadilla" class="imagen-modal">
+                        <label for="series"> Series </label>
+                        <input id="series" type="number" class="form-control form-control-sm" value="4">
+                        <label for="repeticiones" class="repeticiones">Repeticiones</label>
+                        <input id="repeticiones" type="number" class="form-control form-control-sm" value="10">
+                                                
+                    </div>
+                    <div class="modal-footer">
+                        
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Listo</button>
+                    </div>
+                    </div>
+            </div>
+        </div>
+
+        
+
 </body>
 
 </html>
