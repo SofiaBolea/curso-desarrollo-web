@@ -206,8 +206,9 @@ a:hover {
 .p-oscuro {
     color: #222;
 }
+
 /* -------------------- FORMULARIO REGISTRO -------------------- */
-.formulario-registro{
+.formulario-registro {
     width: 80%;
     height: 60%;
     display: flex;
@@ -217,18 +218,21 @@ a:hover {
     max-width: 500px;
     margin: auto;
 }
+
 .columna-botones-registro {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
+
 .fila-botones-registro {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
+
 /* -------------------- RUTINAS -------------------- */
 .carousel {
     width: 100%;
@@ -237,25 +241,28 @@ a:hover {
 
 .carousel-inner {
     height: 100%;
-    
+
 }
 
 .carousel-item {
     height: 100%;
-    
+
 }
+
 .carousel-item-uno {
     background-image: url("/multimedia/crossfit.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .carousel-item-dos {
     background-image: url("/multimedia/victor-freitas-hOuJYX2K5DA-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .carousel-item-tres {
     background-image: url("/multimedia/soga.jpg");
     background-size: cover;
@@ -265,50 +272,58 @@ a:hover {
 
 
 .carousel-caption h5 {
-    font-size: 2.5rem; /* Título grande */
+    font-size: 2.5rem;
+    /* Título grande */
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-.carousel-caption{
+
+.carousel-caption {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items:center;
+    align-items: center;
     background-color: #22222244;
 }
 
 .carousel-caption p {
-    font-size: 1.25rem; /* Texto más grande */
+    font-size: 1.25rem;
+    /* Texto más grande */
     font-family: 'Montserrat', sans-serif;
 }
+
 .seccion-general-rutinas {
     align-items: center;
 
 }
-.boton-crear-rutina{
+
+.boton-crear-rutina {
     margin-top: 10px;
     width: 60%;
     text-align: center;
 }
-.a-rutinas{
-    
+
+.a-rutinas {
+
     text-decoration: none;
     color: #f9f9f9;
-    
+
 }
 
 .a-rutinas:hover {
     text-decoration: none;
 }
+
 .btn-secondary {
     border-radius: 20px;
     padding: 10px 20px;
     border: none;
     color: #222;
     --bs-btn-hover-color: #222;
-   
+
 }
+
 /* -------------------- DÍAS RUTINA -------------------- */
 .scroll-container {
     width: 100%;
@@ -318,87 +333,101 @@ a:hover {
     overflow-y: scroll;
     padding: 50px;
 }
-.row{
+
+.row {
     margin-top: 20px;
 }
-.sin-subrayar:hover{
+
+.sin-subrayar:hover {
     text-decoration: none;
 }
+
 .card {
     height: 100%;
     justify-content: center;
     padding: 20px;
 }
+
 /* -------------------- DÍA RUTINA -------------------- */
-.seccion-general-dia{
+.seccion-general-dia {
     padding: 30px;
     height: 90%;
 
 }
-.container-dia{
+
+.container-dia {
     width: 100%;
     height: 100%;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-color:#f9f9f9;
+    background-color: #f9f9f9;
     border-radius: 15px;
     margin-bottom: 10px;
 }
-.scroll-container-dia{
+
+.scroll-container-dia {
     margin-bottom: 10px;
     align-items: center;
     padding: 20px;
-   
+
 }
+
 .h1-dias {
     font-size: 50px
 }
-.h2-encabezados{
-    color:#222 ;
+
+.h2-encabezados {
+    color: #222;
     font-size: 2rem;
 }
-.form-control{
+
+.form-control {
     width: 100%;
 }
-.form-control{
-    
+
+.form-control {
+
     text-align: center;
 }
+
 .table {
-  width: 100%;
-  table-layout: fixed;
-  text-align: center;
-  height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    height: 100%;
 }
 
 .table th,
 .table td {
-  word-wrap: break-word;
-  padding: 10px;
-  vertical-align: middle;
-  align-items: center;
+    word-wrap: break-word;
+    padding: 10px;
+    vertical-align: middle;
+    align-items: center;
 }
 
 
 .table thead th {
-  background-color: #eeff00e1;
-  color: #222;
+    background-color: #eeff00e1;
+    color: #222;
 }
 
 .table tbody tr {
-  background-color: #f9f9f9;
-  color: #222;
+    background-color: #f9f9f9;
+    color: #222;
 }
-.a-tabla{
+
+.a-tabla {
     width: 100%;
-    
+
 }
-.btn-volver{
+
+.btn-volver {
     width: 40%;
 }
+
 /* -------------------- MODIFICAR RUTINA -------------------- */
-.encabezado-modificar{
+.encabezado-modificar {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -407,31 +436,36 @@ a:hover {
     height: 90%;
     align-items: center;
 }
-.input-nombre-rutina{
+
+.input-nombre-rutina {
     width: 40%;
 }
-.boton-encabezado{
+
+.boton-encabezado {
     width: 40%;
     text-align: end;
 }
+
 .container-dia-especifico {
     width: 100%;
     height: 100%;
-    
+
     display: flex;
     flex-direction: column;
-    background-color:#f9f9f9;
-    
+    background-color: #f9f9f9;
+
 }
-.container-dias{
-     width: 100%;
+
+.container-dias {
+    width: 100%;
     height: 100%;
-   
+
     display: flex;
     flex-direction: column;
-    background-color:#f9f9f9;
+    background-color: #f9f9f9;
     overflow-y: scroll;
 }
+
 /* -------------------- AGREGAR EJERCICIO -------------------- */
 .toggle-password-btn {
     position: absolute;
@@ -444,25 +478,29 @@ a:hover {
     font-size: 1rem;
     color: #494E5F;
 }
-.filtros-de-busqueda{
+
+.filtros-de-busqueda {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 10px;
 }
-.input-filtros{
+
+.input-filtros {
     text-align: start;
 }
-.buscar-ejercicio-container{
+
+.buscar-ejercicio-container {
     position: relative;
     width: 40%;
 }
+
 .buscar-ejercicio-container input {
     width: 100%;
-   
+
 }
 
-  .fa-magnifying-glass{
+.fa-magnifying-glass {
     position: absolute;
     right: 1rem;
     top: 50%;
@@ -472,11 +510,13 @@ a:hover {
     cursor: pointer;
     font-size: 1rem;
     color: #494E5F;
-  }
-  .lista-seleccionable{
+}
+
+.lista-seleccionable {
     width: 40%;
-  }
-  .encabezado-agregar{
+}
+
+.encabezado-agregar {
     position: relative;
     width: 100%;
     display: flex;
@@ -484,28 +524,32 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
-    
-  }
- .encabezado-agregar div{
+
+}
+
+.encabezado-agregar div {
     width: 30%;
     height: 70%;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
- 
-   
-  }
-  .encabezado-agregar input{
+
+
+}
+
+.encabezado-agregar input {
     height: 50%;
-  }
+}
+
 /* -------------------- MODAL -------------------- */
-.imagen-modal{
+.imagen-modal {
     width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 15px;
     margin-bottom: 20px;
 }
+
 /* -------------------- FOOTER -------------------- */
 .item3 {
     grid-area: footer;
@@ -540,8 +584,9 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
+
 /* -------------------- CREAR RUTINA -------------------- */
-.botones{
+.botones {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -563,62 +608,75 @@ footer {
     .seccion-general {
         align-items: center;
     }
-.fila-botones-inicio-sesion {
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
+    .fila-botones-inicio-sesion {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
     .fila-botones-registro {
-    flex-direction: column;
-    height: 40%;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-  }
-  .btn{
-    font-size: 0.5rem;
-    
-  }
-  .carousel-caption h5 {
-    font-size: 1.5rem; /* Título grande */
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
+        flex-direction: column;
+        height: 40%;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
 
-.carousel-caption p {
-    font-size: 1rem; /* Texto más grande */
-    font-family: 'Montserrat', sans-serif;
-}
-.table th,
-.table td {
-  font-size: 0.5rem;
-}
- .fa-magnifying-glass{
-    
-    font-size: 0.7rem;
-    
-  }
+    .btn {
+        font-size: 0.5rem;
 
-.encabezado-agregar h1{
-    font-size: 1.5rem;
-}
-.encabezado-agregar div{
-    height: 30%;
-}
-.encabezado-agregar{
-    margin-bottom: 10px;
-}
-.input-filtros{
-    font-size: 0.7rem;
-}
-input{
-    font-size: 0.5rem;
-}
-.card-title{
-    font-size: 0.8rem;
-}
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+        /* Título grande */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+        /* Texto más grande */
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .table th,
+    .table td {
+        font-size: 0.5rem;
+    }
+
+    .fa-magnifying-glass {
+
+        font-size: 0.7rem;
+
+    }
+
+    .encabezado-agregar h1 {
+        font-size: 1.5rem;
+    }
+
+    .encabezado-agregar div {
+        height: 30%;
+    }
+
+    .encabezado-agregar {
+        margin-bottom: 10px;
+    }
+
+    .input-filtros {
+        font-size: 0.7rem;
+    }
+
+    input {
+        font-size: 0.5rem;
+    }
+
+    .card-title {
+        font-size: 0.8rem;
+    }
 
 }
