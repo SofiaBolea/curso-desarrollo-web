@@ -1,0 +1,75 @@
+@use 'variables';
+@use 'mixin';
+
+.seccion-general-dia {
+    .encabezado-agregar {
+        position: relative;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+
+
+        }
+
+        input {
+            height: 50%;
+        }
+
+    }
+
+    .container-dia {
+        width: 100%;
+        height: 90%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: #f9f9f9;
+        border-radius: 15px;
+        margin-bottom: 10px;
+
+        .filtros-de-busqueda {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        .scroll-container-dia {
+            margin-bottom: 10px;
+            align-items: center;
+            padding: 0px;
+
+        }
+    }
+}
+
+
+
+
+
+.duracion-rutina {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    input {
+        width: 40%;
+    }
+}
+
+.botones {
+    @include mixin.flex-center(row, space-around, center);
+    width: 100%;
+}

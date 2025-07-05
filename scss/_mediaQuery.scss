@@ -1,0 +1,161 @@
+@use 'variables';
+@use 'mixin';
+@use 'extend';
+
+/* Media query para tabletas */
+
+@media (max-width: 1024px) {
+
+    /*GENERALES*/
+    label {
+        font-size: 0.8rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    /*INICIO*/
+
+    .columna-hero {
+        width: 80%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .seccion-general {
+        align-items: center;
+    }
+
+    /* INICIO DE SESION */
+    .fila-botones-inicio-sesion {
+        width: 90%;
+        height: auto;
+        @include mixin.flex-center(column, space-around, center);
+        text-align: center;
+    }
+
+    /* REGISTRO */
+    /* REGISTRO */
+    .fila-botones-registro {
+        @include mixin.flex-center(column, space-evenly, center);
+        height: 40%;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+
+    }
+
+    /*RUTINAS*/
+
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+        /* Título grande */
+        font-family: variables.$fuente-texto;
+        font-weight: 700;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+        /* Texto más grande */
+        font-family: variables.$fuente-texto;
+    }
+
+    /* TABLAS */
+    .table th,
+    .table td {
+        font-size: 0.5rem;
+    }
+
+    .fa-magnifying-glass {
+
+        font-size: 0.7rem;
+
+    }
+
+    /* AGREGAR EJERCICIO */
+
+    .encabezado-agregar h1 {
+        font-size: 2rem;
+    }
+
+
+    .encabezado-agregar {
+        margin-bottom: 10px;
+    }
+
+    .input-filtros {
+        font-size: 0.8rem;
+    }
+
+
+    .card-title {
+        font-size: 0.8rem;
+    }
+
+    .form-control {
+        font-size: 0.8rem;
+
+    }
+
+
+
+}
+
+/*MEDIA QUERY PARA CELULARES*/
+@media (max-width: 600px) {
+
+    /* GENERALES */
+    label {
+        font-size: 0.6rem;
+    }
+
+    a {
+        font-size: 0.5rem;
+    }
+
+    p {
+        font-size: 0.5rem;
+    }
+
+    .form-floating>.form-control,
+    .form-floating>.form-control-plaintext,
+    .form-floating>.form-select {
+        height: calc(2rem + calc(var(--bs-border-width) * 2));
+    }
+
+    /* AGREGAR EJERCICIO */
+    .encabezado-agregar div {
+        width: 100%;
+    }
+
+    .encabezado-agregar {
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
+    .input-filtros {
+        font-size: 0.7rem;
+    }
+
+
+    .card-title {
+        font-size: 0.8rem;
+    }
+
+    .form-control {
+        font-size: 0.8rem;
+
+
+    }
+
+    .boton-ver {
+        font-size: 0.5rem;
+    }
+}

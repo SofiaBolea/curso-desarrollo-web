@@ -1,0 +1,132 @@
+@use 'variables';
+@use 'extend';
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    color: variables.$blanco;
+    background-color: variables.$negro;
+    font-family: variables.$fuente-texto;
+    font-optical-sizing: auto;
+
+    p {
+        margin: 0px;
+        color: variables.$amarillo;
+    }
+
+    h1 {
+
+        font-size: 100px;
+        @extend %titulo-bebas;
+        margin: 0;
+    }
+
+    h3 {
+        font-family: variables.$fuente-titulos;
+    }
+
+    a {
+        text-decoration: none;
+        color: variables.$negro;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+}
+
+.btn-primary {
+    @extend %boton-base;
+    background-color: #eeff00e1;
+    --bs-btn-hover-color: #222;
+    --bs-btn-hover-bg: #99a30dec;
+    --bs-btn-active-color: #222;
+    --bs-btn-active-bg: #99a30dec;
+    --bs-btn-active-border-color: #99a30dec;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #f9f9f9;
+    --bs-btn-disabled-bg: #99a30dec;
+    --bs-btn-disabled-border-color: #99a30dec;
+}
+
+.btn-secondary {
+    @extend %boton-base;
+    --bs-btn-hover-color: #222;
+    background-color: #eeff00e1;
+
+}
+
+.p-oscuro {
+    color: variables.$negro;
+}
+
+.form-floating>.form-control,
+.form-floating>.form-control-plaintext,
+.form-floating>.form-select {
+    height: calc(3.5rem + calc(var(--bs-border-width) * 2));
+    min-height: calc(3rem + calc(var(--bs-border-width) * 2));
+}
+
+.sin-subrayar:hover {
+    text-decoration: none;
+}
+
+.h2-encabezados {
+    color: variables.$negro;
+    font-size: 2rem;
+}
+
+.a-tabla {
+    width: 100%;
+}
+
+.btn-volver {
+    width: 40%;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #494E5F;
+}
+
+.lista-seleccionable {
+    width: 40%;
+}
+
+.toggle-password-btn {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #494E5F;
+}
+
+/*ANIMACIONES*/
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.carousel-caption h5, .carousel-caption p {
+  animation: slideUp 0.8s ease;
+}

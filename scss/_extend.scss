@@ -1,0 +1,15 @@
+@use 'variables';
+
+%boton-base {
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: variables.$negro;
+}
+
+%titulo-bebas {
+  font-family: variables.$fuente-titulos;
+  font-weight: 400;
+  font-style: normal;
+  color: variables.$negro;
+}

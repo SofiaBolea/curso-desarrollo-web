@@ -88,7 +88,7 @@ a:hover {
 
 .navbar-toggler {
 
-    color: azure;
+    color: #f9f9f9;
 }
 
 .navbar-toggler:focus {
@@ -213,10 +213,10 @@ a:hover {
 /* -------------------- FORMULARIO REGISTRO -------------------- */
 .formulario-registro {
     width: 80%;
-    height: 60%;
-    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 60%;
+    display: flex;
     align-items: center;
     max-width: 500px;
     margin: auto;
@@ -253,21 +253,21 @@ a:hover {
 
 }
 
-.carousel-item-uno {
+.carousel-item-1 {
     background-image: url("./multimedia/crossfit.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.carousel-item-dos {
+.carousel-item-2 {
     background-image: url("./multimedia/victor-freitas-hOuJYX2K5DA-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.carousel-item-tres {
+.carousel-item-3 {
     background-image: url("./multimedia/soga.jpg");
     background-size: cover;
     background-position: center;
@@ -393,11 +393,14 @@ a:hover {
 
 .form-control {
     width: 100%;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    text-align: center;
 }
 
-.form-control {
 
-    text-align: center;
+.form-control:focus {
+  border-color: #eeff00e1;
+  box-shadow: 0 0 8px rgba(238, 255, 0, 0.6);
 }
 
 .table {
@@ -600,14 +603,7 @@ footer {
 }
 
 /* -------------------- CREAR RUTINA -------------------- */
-.botones {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
+ 
 .duracion-rutina {
     width: 100%;
     display: flex;
@@ -617,6 +613,96 @@ footer {
 
 .duracion-rutina input {
     width: 40%;
+}
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+/*ANIMACIONES*/
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.carousel-caption h5, .carousel-caption p {
+  animation: slideUp 0.8s ease;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+  background-color: #eeff00e1;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: #222;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover: agrandar y brillo */
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(238, 255, 0, 0.6);
+}
+
+/* Click: hundirse */
+.btn-primary:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgba(238, 255, 0, 0.8);
+}
+.btn-secondary {
+  background-color: #eeff00e1;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: #222;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover: agrandar y brillo */
+.btn-secondary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(238, 255, 0, 0.6);
+}
+
+/* Click: hundirse */
+.btn-secondary:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgba(238, 255, 0, 0.8);
+}
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-inicio .seccion-general {
+  animation: fadeSlideUp 1s ease-out;
 }
 
 /* -------------------- MOBILE -------------------- */

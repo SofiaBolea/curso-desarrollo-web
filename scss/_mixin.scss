@@ -1,0 +1,25 @@
+@mixin flex-center($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+
+@mixin background-cover($img-url) {
+  background-image: url($img-url);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin form-container($width, $max-width, $height) {
+  width: $width;
+  height: $height;
+  max-width: $max-width;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+

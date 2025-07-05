@@ -1,0 +1,87 @@
+
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-inicio .seccion-general {
+  animation: fadeSlideUp 1s ease-out;
+}
+
+
+/*ANIMACIONES*/
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.carousel-caption h5, .carousel-caption p {
+  animation: slideUp 0.8s ease;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+  background-color: #eeff00e1;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: #222;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover: agrandar y brillo */
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(238, 255, 0, 0.6);
+}
+
+/* Click: hundirse */
+.btn-primary:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgba(238, 255, 0, 0.8);
+}
+.btn-secondary {
+  background-color: #eeff00e1;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: #222;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover: agrandar y brillo */
+.btn-secondary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(238, 255, 0, 0.6);
+}
+
+/* Click: hundirse */
+.btn-secondary:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgba(238, 255, 0, 0.8);
+}
+
+

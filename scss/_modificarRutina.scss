@@ -1,0 +1,39 @@
+@use 'variables';
+@use 'mixin';
+@use 'extend';
+
+.encabezado-modificar {
+    width: 100%;
+    @include mixin.flex-center(row, space-between, center);
+    padding: 20px;
+    height: 90%;
+
+    .input-nombre-rutina {
+        width: 40%;
+    }
+
+    .boton-encabezado {
+        width: 40%;
+        text-align: end;
+    }
+}
+
+.container-dias {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: variables.$blanco;
+    overflow-y: scroll;
+
+    .container-dia-especifico {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        background-color: variables.$blanco;
+
+    }
+}
