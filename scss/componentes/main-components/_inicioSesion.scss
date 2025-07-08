@@ -1,6 +1,6 @@
-@use 'variables';
-@use 'mixin';
-@use 'extend';
+@use '../../variables.scss';
+@use '../../mixin.scss';
+@use '../../extend.scss';
 
 .seccion-general-inicio-sesion {
     align-items: center;

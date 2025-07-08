@@ -1,6 +1,6 @@
-@use 'variables';
-@use 'extend';
-@use 'mixin';
+@use '../variables.scss';
+@use '../extend.scss';
+@use '../mixin.scss';
 
 .item3 {
     grid-area: footer;

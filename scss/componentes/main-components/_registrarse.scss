@@ -1,4 +1,4 @@
-@use "mixin";
+@use "../../mixin.scss";
 
 .formulario-registro {
     @include mixin.form-container(80%, 500px, 60%);

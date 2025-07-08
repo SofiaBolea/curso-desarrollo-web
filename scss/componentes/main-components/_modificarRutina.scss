@@ -1,6 +1,6 @@
-@use 'variables';
-@use 'mixin';
-@use 'extend';
+@use '../../variables.scss';
+@use '../../mixin.scss';
+@use '../../extend.scss';
 
 .encabezado-modificar {
     width: 100%;
