@@ -8,20 +8,6 @@
     .formulario-inicio-sesion {
         @include mixin.form-container(95%, 500px, 50%);
 
-        .form-floating {
-            width: 80%;
-
-            .form-control {
-                border-radius: 20px;
-            }
-
-            .form-control:focus {
-                border-color: variables.$amarillo;
-                box-shadow: 0 0 5px rgba(192, 235, 4, 0.377);
-            }
-
-        }
-
         .fila-botones-inicio-sesion {
             width: 80%;
             @include mixin.flex-center(row, space-between, center);

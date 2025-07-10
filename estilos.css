@@ -44,6 +44,32 @@ body a:hover {
   text-decoration: underline;
 }
 
+.seccion-general {
+  background-color: rgba(107, 106, 106, 0.541);
+  border-radius: 30px;
+  height: 90vh;
+  width: 95%;
+  box-shadow: 0 0 30px 5px rgba(60, 66, 2, 0.342);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.form-floating {
+  width: 80%;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.form-control:focus {
+  border-color: rgba(238, 255, 0, 0.8823529412);
+  box-shadow: 0 0 5px rgba(192, 235, 4, 0.377);
+}
+
 .btn-primary {
   background-color: rgba(238, 255, 0, 0.8823529412);
   --bs-btn-hover-color: #222;
@@ -129,21 +155,9 @@ body a:hover {
     transform: translateY(0);
   }
 }
-.carousel-caption h5, .carousel-caption p {
+.carousel-caption h5,
+.carousel-caption p {
   animation: slideUp 0.8s ease;
-}
-
-.seccion-general {
-  background-color: rgba(107, 106, 106, 0.541);
-  border-radius: 30px;
-  height: 90vh;
-  width: 95%;
-  box-shadow: 0 0 30px 5px rgba(60, 66, 2, 0.342);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 50px;
 }
 
 .imagen-modal {
@@ -415,16 +429,6 @@ body a:hover {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-}
-.seccion-general-inicio-sesion .formulario-inicio-sesion .form-floating {
-  width: 80%;
-}
-.seccion-general-inicio-sesion .formulario-inicio-sesion .form-floating .form-control {
-  border-radius: 20px;
-}
-.seccion-general-inicio-sesion .formulario-inicio-sesion .form-floating .form-control:focus {
-  border-color: rgba(238, 255, 0, 0.8823529412);
-  box-shadow: 0 0 5px rgba(192, 235, 4, 0.377);
 }
 .seccion-general-inicio-sesion .formulario-inicio-sesion .fila-botones-inicio-sesion {
   width: 80%;

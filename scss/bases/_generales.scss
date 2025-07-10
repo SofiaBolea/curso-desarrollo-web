@@ -39,6 +39,31 @@ body {
 
 }
 
+.seccion-general {
+    background-color: rgba(107, 106, 106, 0.541);
+    border-radius: 30px;
+    height: 90vh;
+    width: 95%;
+    box-shadow: 0 0 30px 5px rgba(60, 66, 2, 0.342);
+    @include mixin.flex-center(column, center, flex-start);
+    padding: 50px;
+}
+
+.form-floating {
+    width: 80%;
+
+}
+
+
+.form-control {
+    border-radius: 20px;
+}
+
+.form-control:focus {
+    border-color: variables.$amarillo;
+    box-shadow: 0 0 5px rgba(192, 235, 4, 0.377);
+}
+
 .btn-primary {
     @extend %boton-base;
     background-color: #eeff00e1;
@@ -118,26 +143,18 @@ body {
 
 /*ANIMACIONES*/
 @keyframes slideUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.carousel-caption h5, .carousel-caption p {
-  animation: slideUp 0.8s ease;
-}
-
-  .seccion-general {
-        background-color: rgba(107, 106, 106, 0.541);
-        border-radius: 30px;
-        height: 90vh;
-        width: 95%;
-        box-shadow: 0 0 30px 5px rgba(60, 66, 2, 0.342);
-        @include mixin.flex-center(column, center, flex-start);
-        padding: 50px;
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
     }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    animation: slideUp 0.8s ease;
+}
