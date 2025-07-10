@@ -133,6 +133,19 @@ body a:hover {
   animation: slideUp 0.8s ease;
 }
 
+.seccion-general {
+  background-color: rgba(107, 106, 106, 0.541);
+  border-radius: 30px;
+  height: 90vh;
+  width: 95%;
+  box-shadow: 0 0 30px 5px rgba(60, 66, 2, 0.342);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+
 .imagen-modal {
   width: 100%;
   height: auto;
@@ -366,18 +379,6 @@ body a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-.hero-inicio .seccion-general {
-  background-color: rgba(107, 106, 106, 0.541);
-  border-radius: 30px;
-  height: 90vh;
-  width: 95%;
-  box-shadow: 0 0 30px 5px rgba(60, 66, 2, 0.342);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 50px;
 }
 
 .columna-hero {

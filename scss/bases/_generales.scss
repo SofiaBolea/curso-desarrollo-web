@@ -1,5 +1,6 @@
 @use '../variables.scss';
 @use '../extend.scss';
+@use '../mixin.scss';
 
 body {
     margin: 0;
@@ -130,3 +131,13 @@ body {
 .carousel-caption h5, .carousel-caption p {
   animation: slideUp 0.8s ease;
 }
+
+  .seccion-general {
+        background-color: rgba(107, 106, 106, 0.541);
+        border-radius: 30px;
+        height: 90vh;
+        width: 95%;
+        box-shadow: 0 0 30px 5px rgba(60, 66, 2, 0.342);
+        @include mixin.flex-center(column, center, flex-start);
+        padding: 50px;
+    }
