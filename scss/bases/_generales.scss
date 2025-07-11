@@ -49,6 +49,11 @@ body {
     padding: 50px;
 }
 
+.seccion-general-dia {
+    padding: 30px;
+    height: 90%;
+}
+
 .form-floating {
     width: 80%;
 
@@ -139,6 +144,36 @@ body {
     cursor: pointer;
     font-size: 1rem;
     color: #494E5F;
+}
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    height: 100%;
+
+    th,
+    td {
+        word-wrap: break-word;
+        padding: 10px;
+        vertical-align: middle;
+        align-items: center;
+    }
+
+    thead {
+        th {
+            background-color: variables.$amarillo;
+            color: variables.$negro;
+        }
+
+    }
+
+    tbody {
+        tr {
+            background-color: variables.$blanco;
+            color: variables.$negro;
+        }
+    }
 }
 
 /*ANIMACIONES*/
