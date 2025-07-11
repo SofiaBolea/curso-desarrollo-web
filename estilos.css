@@ -710,6 +710,10 @@ body a:hover {
   .btn {
     font-size: 0.7rem;
   }
+  .table th,
+  .table td {
+    font-size: 0.6rem;
+  }
 }
 @keyframes fadeSlideUp {
   0% {
