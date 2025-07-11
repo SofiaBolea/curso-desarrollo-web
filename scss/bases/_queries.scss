@@ -39,7 +39,7 @@
         text-align: center;
     }
 
-    /* REGISTRO */
+    
     /* REGISTRO */
     .fila-botones-registro {
         @include mixin.flex-center(column, space-evenly, center);
@@ -47,23 +47,18 @@
         text-align: center;
     }
 
-    .btn {
-        font-size: 0.8rem;
-
-    }
+    
 
     /*RUTINAS*/
 
     .carousel-caption h5 {
         font-size: 1.5rem;
-        /* Título grande */
         font-family: variables.$fuente-texto;
         font-weight: 700;
     }
 
     .carousel-caption p {
         font-size: 1rem;
-        /* Texto más grande */
         font-family: variables.$fuente-texto;
     }
 
@@ -121,7 +116,7 @@
     }
 
     p {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .form-floating>.form-control,
@@ -157,5 +152,10 @@
 
     .boton-ver {
         font-size: 0.5rem;
+    }
+
+    .btn {
+        font-size: 0.7rem;
+
     }
 }

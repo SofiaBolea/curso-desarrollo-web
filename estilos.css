@@ -488,8 +488,6 @@ body a:hover {
 .formulario-registro .fila-botones-registro {
   width: 80%;
   display: flex;
-  justify-content: space-between;
-  align-items: end;
 }
 .formulario-registro .fila-botones-registro .columna-botones-registro {
   display: flex;
@@ -629,7 +627,6 @@ body a:hover {
     text-align: center;
   }
   /* REGISTRO */
-  /* REGISTRO */
   .fila-botones-registro {
     display: flex;
     flex-direction: column;
@@ -638,19 +635,14 @@ body a:hover {
     height: 40%;
     text-align: center;
   }
-  .btn {
-    font-size: 0.8rem;
-  }
   /*RUTINAS*/
   .carousel-caption h5 {
     font-size: 1.5rem;
-    /* Título grande */
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
   }
   .carousel-caption p {
     font-size: 1rem;
-    /* Texto más grande */
     font-family: "Montserrat", sans-serif;
   }
   /* TABLAS */
@@ -688,7 +680,7 @@ body a:hover {
     font-size: 0.7rem;
   }
   p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .form-floating > .form-control,
   .form-floating > .form-control-plaintext,
@@ -714,6 +706,9 @@ body a:hover {
   }
   .boton-ver {
     font-size: 0.5rem;
+  }
+  .btn {
+    font-size: 0.7rem;
   }
 }
 @keyframes fadeSlideUp {
