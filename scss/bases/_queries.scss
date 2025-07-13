@@ -29,6 +29,9 @@
 
     .seccion-general {
         align-items: center;
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
     }
 
     /* INICIO DE SESION */
@@ -39,15 +42,11 @@
         text-align: center;
     }
 
-    
-    /* REGISTRO */
-    .fila-botones-registro {
-        @include mixin.flex-center(column, space-evenly, center);
-        height: 40%;
-        text-align: center;
-    }
+    /*REGISTRO*/
+    .formulario-registro {
+        @include mixin.form-container(80%, 500px, 50%);
 
-    
+    }
 
     /*RUTINAS*/
 
@@ -163,4 +162,13 @@
     .table td {
         font-size: 0.6rem;
     }
+
+    /* REGISTRO */
+
+    .fila-botones-registro {
+        @include mixin.flex-center(column, space-evenly, center);
+        height: 40%;
+        text-align: center;
+    }
+
 }

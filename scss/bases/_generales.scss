@@ -40,14 +40,18 @@ body {
 }
 
 .seccion-general {
-    background-color: rgba(107, 106, 106, 0.541);
+    background-color: rgba(207, 206, 206, 0.301);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
     border-radius: 30px;
-    height: 90vh;
-    width: 95%;
-    box-shadow: 0 0 30px 5px rgba(60, 66, 2, 0.342);
+    height: 97%;
+    width: 97%;
+    box-shadow: 0 0 30px 5px rgba(29, 29, 26, 0.582);
     @include mixin.flex-center(column, center, flex-start);
     padding: 50px;
+    z-index: 1;
 }
+
 
 .seccion-general-dia {
     padding: 30px;

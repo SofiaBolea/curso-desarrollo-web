@@ -9,12 +9,17 @@
     /* REUTILIZADO EN INICIO DE SESION*/
     height: 100vh;
     width: 100%;
-    @include mixin.background-cover("./multimedia/imagenHero.jpg");
     @include mixin.flex-center(row, center, center);
-
-  
+    background:
+        linear-gradient(rgba(250, 247, 247, 0.644), rgba(78, 78, 78, 0.4)),
+        url("./multimedia/imagenHero.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(6px);
 
 }
+
+
 
 .columna-hero {
     display: flex;
@@ -37,5 +42,5 @@
 }
 
 .navbar .nav-link {
-  color: variables.$blanco;
+    color: variables.$blanco;
 }
