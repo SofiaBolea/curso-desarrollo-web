@@ -27,12 +27,7 @@
         text-align: center;
     }
 
-    .seccion-general {
-        align-items: center;
-        border-radius: 0;
-        height: 100%;
-        width: 100%;
-    }
+  
 
     /* INICIO DE SESION */
     .fila-botones-inicio-sesion {
@@ -98,6 +93,15 @@
 
     }
 
+      .seccion-general {
+        align-items: center;
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(207, 206, 206, 0);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
 
 
 }

@@ -11,7 +11,7 @@
     width: 100%;
     @include mixin.flex-center(row, center, center);
     background:
-        linear-gradient(rgba(250, 247, 247, 0.644), rgba(78, 78, 78, 0.4)),
+        linear-gradient(rgba(250, 247, 247, 0.603), rgba(78, 78, 78, 0.582)),
         url("./multimedia/imagenHero.jpg");
     background-size: cover;
     background-position: center;
