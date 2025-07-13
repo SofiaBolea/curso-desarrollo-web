@@ -334,7 +334,7 @@ body a:hover {
   justify-content: space-between;
 }
 .duracion-rutina input {
-  width: 40%;
+  width: 49%;
 }
 
 .botones {
@@ -664,9 +664,6 @@ body a:hover {
   .input-filtros {
     font-size: 0.8rem;
   }
-  .card-title {
-    font-size: 0.8rem;
-  }
   .form-control {
     font-size: 0.8rem;
   }
@@ -678,6 +675,9 @@ body a:hover {
     background-color: rgba(207, 206, 206, 0);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+  }
+  .seccion-general-dia {
+    padding: 10px;
   }
 }
 /*MEDIA QUERY PARA CELULARES*/
@@ -708,9 +708,6 @@ body a:hover {
   .input-filtros {
     font-size: 0.7rem;
   }
-  .card-title {
-    font-size: 0.8rem;
-  }
   .form-control {
     font-size: 0.8rem;
   }
@@ -732,6 +729,12 @@ body a:hover {
     align-items: center;
     height: 40%;
     text-align: center;
+  }
+  .seccion-general-rutinas {
+    padding: 15px;
+  }
+  .scroll-container {
+    padding: 20px;
   }
 }
 @keyframes fadeSlideUp {

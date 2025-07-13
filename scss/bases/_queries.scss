@@ -27,7 +27,7 @@
         text-align: center;
     }
 
-  
+
 
     /* INICIO DE SESION */
     .fila-botones-inicio-sesion {
@@ -84,16 +84,12 @@
     }
 
 
-    .card-title {
-        font-size: 0.8rem;
-    }
-
     .form-control {
         font-size: 0.8rem;
 
     }
 
-      .seccion-general {
+    .seccion-general {
         align-items: center;
         border-radius: 0;
         height: 100%;
@@ -101,6 +97,10 @@
         background-color: rgba(207, 206, 206, 0);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
+    }
+
+    .seccion-general-dia {
+        padding: 10px;
     }
 
 
@@ -143,9 +143,6 @@
     }
 
 
-    .card-title {
-        font-size: 0.8rem;
-    }
 
     .form-control {
         font-size: 0.8rem;
@@ -173,6 +170,14 @@
         @include mixin.flex-center(column, space-evenly, center);
         height: 40%;
         text-align: center;
+    }
+
+    .seccion-general-rutinas {
+        padding: 15px;
+    }
+
+    .scroll-container {
+        padding: 20px;
     }
 
 }
