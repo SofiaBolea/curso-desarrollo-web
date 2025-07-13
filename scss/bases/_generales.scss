@@ -49,7 +49,7 @@ body {
     box-shadow: 0 0 30px 5px rgba(29, 29, 26, 0.582);
     @include mixin.flex-center(column, center, flex-start);
     padding: 50px;
-    z-index: 1;
+    z-index: 3;
 }
 
 
