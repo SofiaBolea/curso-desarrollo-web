@@ -400,7 +400,7 @@ body a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(110, 109, 109, 0.582), rgba(250, 247, 247, 0.829)), url("./multimedia/imagenFondo.jpg");
+  background: linear-gradient(rgba(110, 109, 109, 0.582), rgba(250, 247, 247, 0.829)), url("./multimedia/imagenFondo.webp");
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(6px);
@@ -547,19 +547,19 @@ body a:hover {
   text-decoration: none;
 }
 .seccion-general-rutinas .carousel .carousel-inner .carousel-item-1 {
-  background-image: url("./multimedia/imagen1rutinas.jpg");
+  background-image: url("./multimedia/imagen1rutinas.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .seccion-general-rutinas .carousel .carousel-inner .carousel-item-2 {
-  background-image: url("./multimedia/imagen2rutinas.jpg");
+  background-image: url("./multimedia/imagen2rutinas.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .seccion-general-rutinas .carousel .carousel-inner .carousel-item-3 {
-  background-image: url("./multimedia/imagen3rutinas.jpg");
+  background-image: url("./multimedia/imagen3rutinas.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

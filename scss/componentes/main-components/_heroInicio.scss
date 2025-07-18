@@ -12,7 +12,7 @@
     @include mixin.flex-center(row, center, center);
     background:
         linear-gradient(rgba(110, 109, 109, 0.582), rgba(250, 247, 247, 0.829) ),
-        url("./multimedia/imagenFondo.jpg");
+        url("./multimedia/imagenFondo.webp");
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(6px);
