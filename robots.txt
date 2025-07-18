@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sofiabolea.github.io/curso-desarrollo-web/sitemap.xml
