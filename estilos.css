@@ -8,7 +8,7 @@
   color: #222;
 }
 
-body h1 {
+body h1, body h2 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -30,6 +30,10 @@ body p {
   color: rgba(238, 255, 0, 0.8823529412);
 }
 body h1 {
+  font-size: 100px;
+  margin: 0;
+}
+body h2 {
   font-size: 100px;
   margin: 0;
 }
@@ -295,7 +299,7 @@ body a:hover {
   align-items: center;
 }
 .seccion-general-dia .encabezado-agregar div {
-  width: 40%;
+  width: 50%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -396,7 +400,7 @@ body a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(250, 247, 247, 0.603), rgba(78, 78, 78, 0.582)), url("./multimedia/imagenHero.jpg");
+  background: linear-gradient(rgba(110, 109, 109, 0.582), rgba(250, 247, 247, 0.829)), url("./multimedia/imagenHero.jpg");
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(6px);
@@ -409,7 +413,7 @@ body a:hover {
   width: 50%;
 }
 
-.h2-hero {
+.h4-hero {
   color: #222;
 }
 
@@ -700,10 +704,6 @@ body a:hover {
   /* AGREGAR EJERCICIO */
   .encabezado-agregar div {
     width: 100%;
-  }
-  .encabezado-agregar {
-    margin-bottom: 10px;
-    flex-direction: column;
   }
   .input-filtros {
     font-size: 0.7rem;
