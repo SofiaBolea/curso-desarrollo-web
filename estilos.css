@@ -1,14 +1,16 @@
 @charset "UTF-8";
 /* COLORES*/
 /*FUENTES*/
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
   border-radius: 20px;
   padding: 10px 20px;
   border: none;
   color: #222;
 }
 
-body h1, body h2 {
+body h1,
+body h2 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -137,7 +139,7 @@ body a:hover {
   border: none;
   cursor: pointer;
   font-size: 1rem;
-  color: #494E5F;
+  color: #494e5f;
 }
 
 .lista-seleccionable {
@@ -153,7 +155,7 @@ body a:hover {
   border: none;
   cursor: pointer;
   font-size: 1rem;
-  color: #494E5F;
+  color: #494e5f;
 }
 
 .table {
@@ -400,7 +402,11 @@ body a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(110, 109, 109, 0.582), rgba(250, 247, 247, 0.829)), url("./multimedia/imagenFondo.webp");
+  background: linear-gradient(
+      rgba(110, 109, 109, 0.582),
+      rgba(250, 247, 247, 0.829)
+    ),
+    url("./multimedia/imagenFondo.webp");
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(6px);
@@ -441,7 +447,9 @@ body a:hover {
   justify-content: space-evenly;
   align-items: center;
 }
-.seccion-general-inicio-sesion .formulario-inicio-sesion .fila-botones-inicio-sesion {
+.seccion-general-inicio-sesion
+  .formulario-inicio-sesion
+  .fila-botones-inicio-sesion {
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -516,7 +524,11 @@ body a:hover {
 .seccion-general-rutinas .carousel .carousel-inner .carousel-item {
   height: 100%;
 }
-.seccion-general-rutinas .carousel .carousel-inner .carousel-item .carousel-caption {
+.seccion-general-rutinas
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .carousel-caption {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -524,12 +536,22 @@ body a:hover {
   align-items: center;
   background-color: rgba(34, 34, 34, 0.2666666667);
 }
-.seccion-general-rutinas .carousel .carousel-inner .carousel-item .carousel-caption p {
+.seccion-general-rutinas
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .carousel-caption
+  p {
   font-size: 1.25rem;
   /* Texto más grande */
   font-family: "Montserrat", sans-serif;
 }
-.seccion-general-rutinas .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+.seccion-general-rutinas
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .carousel-caption
+  h5 {
   font-size: 2.5rem;
   /* Título grande */
   font-family: "Montserrat", sans-serif;
@@ -543,7 +565,11 @@ body a:hover {
   flex-direction: column;
   justify-content: end;
 }
-.seccion-general-rutinas .carousel .carousel-inner .carousel-item .a-rutinas:hover {
+.seccion-general-rutinas
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .a-rutinas:hover {
   text-decoration: none;
 }
 .seccion-general-rutinas .carousel .carousel-inner .carousel-item-1 {
@@ -762,7 +788,8 @@ body a:hover {
     transform: translateY(0);
   }
 }
-.carousel-caption h5, .carousel-caption p {
+.carousel-caption h5,
+.carousel-caption p {
   animation: slideUp 0.8s ease;
 }
 
