@@ -52,9 +52,9 @@
                 }
 
                 $imagenes-carousel: (
-                    1: "crossfit.jpg",
-                    2: "victor-freitas-hOuJYX2K5DA-unsplash.jpg",
-                    3: "soga.jpg"
+                    1: "imagen1rutinas.jpg",
+                    2: "imagen2rutinas.jpg",
+                    3: "imagen3rutinas.jpg"
                 );
 
             @each $num, $imagen in $imagenes-carousel {
