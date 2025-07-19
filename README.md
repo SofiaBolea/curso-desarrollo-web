@@ -19,6 +19,9 @@ Herramienta web estática para crear y gestionar rutinas de entrenamiento person
 Accede a la versión alojada en GitHub Pages:
 https://sofiabolea.github.io/curso-desarrollo-web/
 
+Accede a la versión alojada en Netlify
+https://mirutinaonline.netlify.app/
+
 
 ## Estructura de archivos
 | Archivo / Carpeta       | Descripción                                   |
